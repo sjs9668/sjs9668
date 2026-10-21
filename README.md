@@ -1,6 +1,6 @@
 ### <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px" alt="👋"> Nice ways to reach me
 
-![Discord: songjunseop_01](https://img.shields.io/badge/songjunseop__01-5865F2?style=flat-square&logo=discord&logoColor=white)
+[![Discord: songjunseop_01](https://img.shields.io/badge/songjunseop__01-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/users/295439093448441856)
 [![Email: sjs9668@naver.com](https://img.shields.io/badge/sjs9668%40naver.com-03C75A?style=flat-square&logo=naver&logoColor=white)](mailto:sjs9668@naver.com)
 
 ----

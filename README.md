@@ -4,8 +4,7 @@
 
 ----
 
-안녕하세요, **송준섭**입니다. Unreal Engine·Godot·Unity로 게임을 만들고, Python·FastAPI로 백엔드를 개발합니다.  
-음성 기반 상호작용과 게임 플레이 시스템부터 회원·데이터베이스·경매 처리까지 구현해 왔습니다. 🎮
+안녕하세요, **송준섭**입니다. Unreal Engine·Godot·Unity로 게임을 만들고, Python·FastAPI로 백엔드를 개발합니다.
 
 ----
 
@@ -18,10 +17,12 @@
 
   **Highlights**
 
-  - ⭐ [음성 기반 AI 심문·추리 게임](https://github.com/sjs9668/Voice-Based-AI-Interrogation-and-Deduction-Game) — 마이크 녹음, 서버 문답, NPC 음성 재생을 연결한 Unreal Engine 프로젝트.
-  - ⭐ [The Sword's Gourmet](https://github.com/sjs9668/The-Sword-s-Gourmet) — 재료 선택과 레시피 매칭을 활용한 요리 시스템.
-  - ⭐ [Busan Content Contest](https://github.com/sjs9668/Busan-Content-Contest) — 타이밍 판정, 콤보·HP, 단계별 강화를 결합한 Godot 리듬 게임.
-  - ⭐ [CPBack](https://github.com/sjs9668/CPBack) — 팀 프로젝트에서 회원가입·탈퇴, 비동기 DB 연동, 조회수·좋아요·찜 목록과 경매 낙찰 처리를 담당.
+  - ⭐ [부산 배경 리듬 게임](https://github.com/sjs9668/Busan-Content-Contest) — Godot로 노트 생성·입력 판정·점수·게임 진행 시스템을 구현.
+  - ⭐ [검의 미식](https://github.com/sjs9668/The-Sword-s-Gourmet) — Unreal Engine으로 도축·요리·음식 능력치 반영과 UI를 개발.
+  - ⭐ [Unknown Entity](https://github.com/ProgrammingNetwork-PNN/Unknown_Entity) — Unity에서 키 카드·씬 전환·사운드 적용을 담당.
+  - ⭐ [캐릭터 분석 심문 추론 게임](https://github.com/sjs9668/unserver) — FastAPI 백엔드 전반과 음성 질문·답변·NPC 상태·모순 판단을 구현.
+  - ⭐ [법률 위반 경고 AI 서비스](https://github.com/Znsim/Capstone) — 분석 흐름 제어, 회원 API, 임베딩·RAG 검색을 구현.
+  - ⭐ [중고거래 및 경매 플랫폼](https://github.com/sjs9668/CPBack) — 회원 API·DB 연동·상품 반응·경매 낙찰 처리를 구현.
 
   <br/>
 
@@ -37,6 +38,7 @@
 ### 💪 Skills
 
 ![Unreal Engine](https://img.shields.io/badge/Unreal_Engine-313131?style=flat-square&logo=unrealengine&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-100000?style=flat-square&logo=unity&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=dotnet&logoColor=white)

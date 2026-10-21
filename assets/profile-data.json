@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "username": "sjs9668",
+  "generated_at": "2026-10-21T15:38:42Z",
+  "period": {
+    "from": "2025-10-21T15:38:42Z",
+    "to": "2026-10-21T15:38:42Z",
+    "days": 365
+  },
+  "stats": {
+    "commits": 57,
+    "pull_requests": 0,
+    "issues": 0,
+    "repositories_with_commits": 6,
+    "status": "available",
+    "source": "GitHub GraphQL contributionsCollection (public contributions only)",
+    "stars": 0,
+    "stars_scope": "Current stars across public owned non-fork repositories"
+  },
+  "commit_activity": {
+    "status": "available",
+    "timezone": "Asia/Seoul",
+    "utc_offset": "+09:00",
+    "sample_size": 57,
+    "repositories_scanned": 15,
+    "repositories_with_samples": 6,
+    "excluded_merge_records": 0,
+    "scope": "Public owned non-fork repositories; default branches only",
+    "timestamp": "Commit author timestamp, converted to Asia/Seoul",
+    "exclusions": "Merge commits excluded; duplicate commit SHAs counted once",
+    "interpretation": "Commit activity is a proxy, not hours spent coding",
+    "buckets": [
+      {
+        "label": "Morning",
+        "hours": "06:00-12:00",
+        "commits": 10,
+        "percentage": 17.5
+      },
+      {
+        "label": "Daytime",
+        "hours": "12:00-18:00",
+        "commits": 10,
+        "percentage": 17.5
+      },
+      {
+        "label": "Evening",
+        "hours": "18:00-24:00",
+        "commits": 15,
+        "percentage": 26.3
+      },
+      {
+        "label": "Night",
+        "hours": "00:00-06:00",
+        "commits": 22,
+        "percentage": 38.6
+      }
+    ]
+  },
+  "api_requests": 17,
+  "coding_gist_title": "I'm a night 🦉",
+  "stats_gist_title": "SJS9668's GitHub Stats"
+}

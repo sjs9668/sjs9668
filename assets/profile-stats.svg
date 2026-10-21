@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="250" viewBox="0 0 495 250" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Stats</title>
+  <desc id="desc">sjs9668 public GitHub statistics. 2025-10-22 - 2026-10-22 Asia/Seoul. Stars earned (current): 0; Commits: 57; Pull requests: 0; Issues opened: 0; Repositories with commits: 6. Contributions follow GitHub contribution counting rules; stars are current.</desc>
+  <style>
+    .bg { fill: #ffffff; stroke: #d0d7de; }
+    .text { fill: #24292f; }
+    .muted { fill: #57606a; }
+    .accent { fill: #0969da; }
+    .track { fill: #eaeef2; }
+    text { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 12px; }
+    .title { font-size: 15px; font-weight: 600; }
+    .small { font-size: 10px; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0d1117; stroke: #30363d; }
+      .text { fill: #e6edf3; }
+      .muted { fill: #8b949e; }
+      .accent { fill: #58a6ff; }
+      .track { fill: #21262d; }
+    }
+  </style>
+  <rect class="bg" x="0.5" y="0.5" width="494" height="249" rx="6"/>
+  <text x="20" y="28" class="text title">sjs9668&#x27;s GitHub Stats</text>
+  <text x="20" y="48" class="muted small">Public contributions / last 365 days</text>
+  <text x="20" y="80" class="text">Stars earned (current)</text>
+  <text x="473" y="80" class="accent" text-anchor="end">0</text>
+  <text x="20" y="105" class="text">Commits</text>
+  <text x="473" y="105" class="accent" text-anchor="end">57</text>
+  <text x="20" y="130" class="text">Pull requests</text>
+  <text x="473" y="130" class="accent" text-anchor="end">0</text>
+  <text x="20" y="155" class="text">Issues opened</text>
+  <text x="473" y="155" class="accent" text-anchor="end">0</text>
+  <text x="20" y="180" class="text">Repositories with commits</text>
+  <text x="473" y="180" class="accent" text-anchor="end">6</text>
+  <text x="20" y="214" class="muted small">2025-10-22 - 2026-10-22 / Asia/Seoul</text>
+  <text x="20" y="233" class="muted small">Stars: public owned non-fork repos / GitHub API</text>
+</svg>

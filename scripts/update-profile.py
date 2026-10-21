@@ -429,8 +429,7 @@ def sync_gists(data):
         (coding_id, data.get("coding_gist_title") or coding_gist_title(data), coding_text(data)),
         (stats_id, data.get("stats_gist_title") or data["username"].upper() + "'s GitHub Stats", stats_text(data)),
     ):
-        # Pinned Gists display the filename, so rename the existing file rather
-        # than adding a second file whose order would make the title ambiguous.
+        # Match the pinned-card description and its single file's title.
         gist = api.request("/gists/" + gist_id)
         files = gist.get("files", {})
         if len(files) != 1:
@@ -438,7 +437,7 @@ def sync_gists(data):
         previous_filename = next(iter(files))
         api.request(
             "/gists/" + gist_id,
-            {"files": {previous_filename: {"filename": title, "content": content}}},
+            {"description": title, "files": {previous_filename: {"filename": title, "content": content}}},
             method="PATCH",
         )
     print("Updated both configured Gists.")

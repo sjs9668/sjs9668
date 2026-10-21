@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="263" viewBox="0 0 495 263" role="img" aria-labelledby="title desc">
   <title id="title">When I commit (Asia/Seoul)</title>
-  <desc id="desc">Commit activity from 2025-10-22 - 2026-10-22, Asia/Seoul. Sample: 57 authored commits in 15 public owned non-fork repositories, default branches only. Merge commits excluded; duplicate SHAs counted once. Morning 06:00-12:00: 10 (17.5 percent); Daytime 12:00-18:00: 10 (17.5 percent); Evening 18:00-24:00: 15 (26.3 percent); Night 00:00-06:00: 22 (38.6 percent). These are commit times, not measured coding hours.</desc>
+  <desc id="desc">Commit activity from 2025-10-22 - 2026-10-22, Asia/Seoul. Sample: 58 authored commits in 15 public owned non-fork repositories, default branches only. Merge commits excluded; duplicate SHAs counted once. Morning 06:00-12:00: 10 (17.2 percent); Daytime 12:00-18:00: 10 (17.2 percent); Evening 18:00-24:00: 15 (25.9 percent); Night 00:00-06:00: 23 (39.7 percent). These are commit times, not measured coding hours.</desc>
   <style>
     .bg { fill: #ffffff; stroke: #d0d7de; }
     .text { fill: #24292f; }
@@ -20,31 +20,31 @@
   </style>
   <rect class="bg" x="0.5" y="0.5" width="494" height="262" rx="6"/>
   <text x="20" y="28" class="text title">When I commit</text>
-  <text x="20" y="48" class="muted small">Asia/Seoul (UTC+09:00) / 57 sampled commits</text>
+  <text x="20" y="48" class="muted small">Asia/Seoul (UTC+09:00) / 58 sampled commits</text>
   <text x="20" y="80" class="text">Morning</text>
   <text x="100" y="80" class="muted small">06:00-12:00</text>
   <rect x="184" y="71" width="130" height="8" rx="2" class="track"/>
-  <rect x="184" y="71" width="22.81" height="8" rx="2" class="accent"/>
+  <rect x="184" y="71" width="22.41" height="8" rx="2" class="accent"/>
   <text x="396" y="80" class="text" text-anchor="end">10</text>
-  <text x="473" y="80" class="muted" text-anchor="end">17.5%</text>
+  <text x="473" y="80" class="muted" text-anchor="end">17.2%</text>
   <text x="20" y="107" class="text">Daytime</text>
   <text x="100" y="107" class="muted small">12:00-18:00</text>
   <rect x="184" y="98" width="130" height="8" rx="2" class="track"/>
-  <rect x="184" y="98" width="22.81" height="8" rx="2" class="accent"/>
+  <rect x="184" y="98" width="22.41" height="8" rx="2" class="accent"/>
   <text x="396" y="107" class="text" text-anchor="end">10</text>
-  <text x="473" y="107" class="muted" text-anchor="end">17.5%</text>
+  <text x="473" y="107" class="muted" text-anchor="end">17.2%</text>
   <text x="20" y="134" class="text">Evening</text>
   <text x="100" y="134" class="muted small">18:00-24:00</text>
   <rect x="184" y="125" width="130" height="8" rx="2" class="track"/>
-  <rect x="184" y="125" width="34.21" height="8" rx="2" class="accent"/>
+  <rect x="184" y="125" width="33.62" height="8" rx="2" class="accent"/>
   <text x="396" y="134" class="text" text-anchor="end">15</text>
-  <text x="473" y="134" class="muted" text-anchor="end">26.3%</text>
+  <text x="473" y="134" class="muted" text-anchor="end">25.9%</text>
   <text x="20" y="161" class="text">Night</text>
   <text x="100" y="161" class="muted small">00:00-06:00</text>
   <rect x="184" y="152" width="130" height="8" rx="2" class="track"/>
-  <rect x="184" y="152" width="50.18" height="8" rx="2" class="accent"/>
-  <text x="396" y="161" class="text" text-anchor="end">22</text>
-  <text x="473" y="161" class="muted" text-anchor="end">38.6%</text>
+  <rect x="184" y="152" width="51.55" height="8" rx="2" class="accent"/>
+  <text x="396" y="161" class="text" text-anchor="end">23</text>
+  <text x="473" y="161" class="muted" text-anchor="end">39.7%</text>
   <text x="20" y="194" class="muted small">2025-10-22 - 2026-10-22 / 15 repos</text>
   <text x="20" y="211" class="muted small">Public owned non-forks / default branches / author time</text>
   <text x="20" y="228" class="muted small">Merge commits excluded / duplicate SHAs counted once</text>

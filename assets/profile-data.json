@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "username": "sjs9668",
-  "generated_at": "2026-10-21T15:38:42Z",
+  "generated_at": "2026-10-21T15:44:17Z",
   "period": {
-    "from": "2025-10-21T15:38:42Z",
-    "to": "2026-10-21T15:38:42Z",
+    "from": "2025-10-21T15:44:17Z",
+    "to": "2026-10-21T15:44:17Z",
     "days": 365
   },
   "stats": {
@@ -21,7 +21,7 @@
     "status": "available",
     "timezone": "Asia/Seoul",
     "utc_offset": "+09:00",
-    "sample_size": 57,
+    "sample_size": 58,
     "repositories_scanned": 15,
     "repositories_with_samples": 6,
     "excluded_merge_records": 0,
@@ -34,25 +34,25 @@
         "label": "Morning",
         "hours": "06:00-12:00",
         "commits": 10,
-        "percentage": 17.5
+        "percentage": 17.2
       },
       {
         "label": "Daytime",
         "hours": "12:00-18:00",
         "commits": 10,
-        "percentage": 17.5
+        "percentage": 17.2
       },
       {
         "label": "Evening",
         "hours": "18:00-24:00",
         "commits": 15,
-        "percentage": 26.3
+        "percentage": 25.9
       },
       {
         "label": "Night",
         "hours": "00:00-06:00",
-        "commits": 22,
-        "percentage": 38.6
+        "commits": 23,
+        "percentage": 39.7
       }
     ]
   },

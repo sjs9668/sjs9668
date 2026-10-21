@@ -1,6 +1,7 @@
 ### <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px" alt="👋"> Nice ways to reach me
 
-[![GitHub](https://img.shields.io/badge/sjs9668-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sjs9668)
+![Discord: songjunseop_01](https://img.shields.io/badge/songjunseop__01-5865F2?style=flat-square&logo=discord&logoColor=white)
+[![Email: sjs9668@naver.com](https://img.shields.io/badge/sjs9668%40naver.com-03C75A?style=flat-square&logo=naver&logoColor=white)](mailto:sjs9668@naver.com)
 
 ----
 

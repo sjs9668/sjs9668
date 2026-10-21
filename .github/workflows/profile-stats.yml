@@ -1,0 +1,57 @@
+name: Update profile statistics
+
+on:
+  schedule:
+    # Every day at 03:27 in Asia/Seoul (18:27 UTC).
+    - cron: '27 18 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - scripts/update-profile.py
+      - scripts/gists.json
+      - .github/workflows/profile-stats.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out main
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Generate statistics from public GitHub data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          GIST_TOKEN: ${{ secrets.PROFILE_GIST_TOKEN }}
+          CODING_GIST_ID: ${{ vars.CODING_GIST_ID }}
+          STATS_GIST_ID: ${{ vars.STATS_GIST_ID }}
+        run: python3 scripts/update-profile.py
+
+      - name: Commit updated statistics
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- assets/profile-stats.svg assets/coding-time.svg assets/profile-stats.txt assets/coding-time.txt assets/profile-data.json
+
+          if git diff --cached --quiet -- assets/profile-stats.svg assets/coding-time.svg assets/profile-stats.txt assets/coding-time.txt assets/profile-data.json; then
+            echo 'The profile statistics are already up to date.'
+            exit 0
+          fi
+
+          git commit -m 'Update profile statistics' -- assets/profile-stats.svg assets/coding-time.svg assets/profile-stats.txt assets/coding-time.txt assets/profile-data.json
+          git pull --rebase origin main
+          git push origin HEAD:main

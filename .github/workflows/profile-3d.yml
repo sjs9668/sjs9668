@@ -1,0 +1,52 @@
+name: Update 3D contribution graph
+
+on:
+  schedule:
+    # Every day at 03:17 in Asia/Seoul (18:17 UTC).
+    - cron: '17 18 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/profile-3d.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-3d-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out main
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Generate 3D contribution graphs
+        uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit updated graphs
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- profile-3d-contrib/
+
+          if git diff --cached --quiet -- profile-3d-contrib/; then
+            echo 'The 3D contribution graphs are already up to date.'
+            exit 0
+          fi
+
+          git commit -m 'Update 3D contribution graphs' -- profile-3d-contrib/
+          git pull --rebase origin main
+          git push origin HEAD:main

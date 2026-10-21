@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="164" viewBox="0 0 960 164" role="img" aria-labelledby="title desc">
+<title id="title">sjs9668 — Game Development &amp; Backend</title>
+<desc id="desc">Indigo game and system themed header with an isometric cube motif.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#121729"/><stop offset="1" stop-color="#202b46"/></linearGradient>
+  <linearGradient id="accent"><stop stop-color="#a5b4fc"/><stop offset="1" stop-color="#5eead4"/></linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#a5b4fc" stroke-opacity=".06"/></pattern>
+</defs>
+<rect width="960" height="164" rx="14" fill="url(#bg)"/>
+<rect width="960" height="164" rx="14" fill="url(#grid)"/>
+<rect x="40" y="36" width="34" height="3" rx="1.5" fill="url(#accent)"/>
+<text x="40" y="75" fill="#f1f5f9" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="1">sjs9668</text>
+<text x="40" y="107" fill="#aebed4" font-family="Segoe UI,Arial,sans-serif" font-size="14" letter-spacing="2">GAME DEVELOPMENT &amp; BACKEND</text>
+<g transform="translate(752 37)" stroke-linejoin="round" stroke-width="1.5">
+  <path d="m0 28 48-27 48 27-48 28Z" fill="#8589d8" stroke="#bcc5ff"/>
+  <path d="m0 28 48 28v53L0 81Z" fill="#3e4b80" stroke="#858ed1"/>
+  <path d="m48 56 48-28v53l-48 28Z" fill="#536ca0" stroke="#a5b4fc"/>
+  <path d="m48 1 48 27-48 28L0 28Z" fill="none" stroke="#c4b5fd"/>
+  <path d="m24 15 48 27M24 42l48-27M24 42v53M72 42v53" stroke="#c4b5fd" opacity=".4"/>
+</g>
+<circle cx="882" cy="43" r="4" fill="#5eead4"/>
+<circle cx="721" cy="112" r="3" fill="#a5b4fc"/>
+</svg>

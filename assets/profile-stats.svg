@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="250" viewBox="0 0 495 250" role="img" aria-labelledby="title desc">
   <title id="title">GitHub Stats</title>
-  <desc id="desc">sjs9668 public GitHub statistics. 2025-10-26 - 2026-10-26 Asia/Seoul. Stars earned (current): 0; Commits: 61; Pull requests: 0; Issues opened: 0; Repositories with commits: 7. Contributions follow GitHub contribution counting rules; stars are current.</desc>
+  <desc id="desc">sjs9668 public GitHub statistics. 2025-10-27 - 2026-10-27 Asia/Seoul. Stars earned (current): 0; Commits: 61; Pull requests: 0; Issues opened: 0; Repositories with commits: 7. Contributions follow GitHub contribution counting rules; stars are current.</desc>
   <style>
     .bg { fill: #ffffff; stroke: #d0d7de; }
     .text { fill: #24292f; }
@@ -31,6 +31,6 @@
   <text x="473" y="155" class="accent" text-anchor="end">0</text>
   <text x="20" y="180" class="text">Repositories with commits</text>
   <text x="473" y="180" class="accent" text-anchor="end">7</text>
-  <text x="20" y="214" class="muted small">2025-10-26 - 2026-10-26 / Asia/Seoul</text>
+  <text x="20" y="214" class="muted small">2025-10-27 - 2026-10-27 / Asia/Seoul</text>
   <text x="20" y="233" class="muted small">Stars: public owned non-fork repos / GitHub API</text>
 </svg>

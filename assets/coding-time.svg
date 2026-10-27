@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="263" viewBox="0 0 495 263" role="img" aria-labelledby="title desc">
   <title id="title">When I commit (Asia/Seoul)</title>
-  <desc id="desc">Commit activity from 2025-10-27 - 2026-10-27, Asia/Seoul. Sample: 61 authored commits in 15 public owned non-fork repositories, default branches only. Merge commits excluded; duplicate SHAs counted once. Morning 06:00-12:00: 10 (16.4 percent); Daytime 12:00-18:00: 10 (16.4 percent); Evening 18:00-24:00: 15 (24.6 percent); Night 00:00-06:00: 26 (42.6 percent). These are commit times, not measured coding hours.</desc>
+  <desc id="desc">Commit activity from 2025-10-28 - 2026-10-28, Asia/Seoul. Sample: 61 authored commits in 15 public owned non-fork repositories, default branches only. Merge commits excluded; duplicate SHAs counted once. Morning 06:00-12:00: 10 (16.4 percent); Daytime 12:00-18:00: 10 (16.4 percent); Evening 18:00-24:00: 15 (24.6 percent); Night 00:00-06:00: 26 (42.6 percent). These are commit times, not measured coding hours.</desc>
   <style>
     .bg { fill: #ffffff; stroke: #d0d7de; }
     .text { fill: #24292f; }
@@ -45,7 +45,7 @@
   <rect x="184" y="152" width="55.41" height="8" rx="2" class="accent"/>
   <text x="396" y="161" class="text" text-anchor="end">26</text>
   <text x="473" y="161" class="muted" text-anchor="end">42.6%</text>
-  <text x="20" y="194" class="muted small">2025-10-27 - 2026-10-27 / 15 repos</text>
+  <text x="20" y="194" class="muted small">2025-10-28 - 2026-10-28 / 15 repos</text>
   <text x="20" y="211" class="muted small">Public owned non-forks / default branches / author time</text>
   <text x="20" y="228" class="muted small">Merge commits excluded / duplicate SHAs counted once</text>
   <text x="20" y="245" class="muted small">Commit activity proxy; not time spent coding</text>

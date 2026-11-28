@@ -4,8 +4,8 @@
 🐞 Issues                0
 📁 Repos with commits    6
 
-Period: 2025-11-27 - 2026-11-27 (last 365 days)
+Period: 2025-11-28 - 2026-11-28 (last 365 days)
 Contributions: public GitHub contribution counts.
 Stars: current total of public owned non-fork repos.
 Repos: distinct repositories with commit contributions.
-Updated: 2026-11-27 10:49 Asia/Seoul
+Updated: 2026-11-28 10:32 Asia/Seoul
